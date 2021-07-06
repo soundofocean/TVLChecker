@@ -7,10 +7,26 @@ struct MainView: View {
   
   @FetchRequest(entity: ItemModelObject.entity(), sortDescriptors: []) private var items: FetchedResults<ItemModelObject>
   
+  @State var indicator: String
+  
   var body: some View {
-    List(items, id: \.self) { item in
-      Text(item.val ?? "some")
+    
+    NavigationView {
+      
+      Form {
+        Section (header: Text("Choose indicator")) {
+          TextField("Choose indicator", text: $indicator)
+          
+        }
+        
+        List(items, id: \.self) { item in
+          Text(item.indicator ?? "some")
+       
+          NavigationLink(destination: ItemView()) {}
+        }
+      }
     }
+    .navigationBarTitle("Result", displayMode: .inline)
   }
 }
 

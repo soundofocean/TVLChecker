@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5523A6AF269052AC007C804F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5523A6AE269052AC007C804F /* GoogleService-Info.plist */; };
 		5523A6B426905384007C804F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5523A6B326905384007C804F /* DataService.swift */; };
 		5523A6BA26905936007C804F /* ItemModelObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5523A6B826905936007C804F /* ItemModelObject+CoreDataClass.swift */; };
 		5523A6BB26905936007C804F /* ItemModelObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5523A6B926905936007C804F /* ItemModelObject+CoreDataProperties.swift */; };
+		5523A6CE2690D0F7007C804F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5523A6CD2690D0F6007C804F /* GoogleService-Info.plist */; };
 		55446267268E222E00E19474 /* TVLCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55446266268E222E00E19474 /* TVLCheckerApp.swift */; };
 		55446269268E222E00E19474 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55446268268E222E00E19474 /* ContentView.swift */; };
 		5544626B268E223100E19474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5544626A268E223100E19474 /* Assets.xcassets */; };
@@ -24,10 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5523A6AE269052AC007C804F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5523A6B326905384007C804F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		5523A6B826905936007C804F /* ItemModelObject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemModelObject+CoreDataClass.swift"; sourceTree = "<group>"; };
 		5523A6B926905936007C804F /* ItemModelObject+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemModelObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5523A6CD2690D0F6007C804F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		55446263268E222E00E19474 /* TVLChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVLChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55446266268E222E00E19474 /* TVLCheckerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVLCheckerApp.swift; sourceTree = "<group>"; };
 		55446268268E222E00E19474 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		5544628D268E342600E19474 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5523A6AE269052AC007C804F /* GoogleService-Info.plist */,
+				5523A6CD2690D0F6007C804F /* GoogleService-Info.plist */,
 				55446274268E223100E19474 /* Info.plist */,
 				5544626A268E223100E19474 /* Assets.xcassets */,
 			);
@@ -219,7 +219,7 @@
 			files = (
 				5544626E268E223100E19474 /* Preview Assets.xcassets in Resources */,
 				5544626B268E223100E19474 /* Assets.xcassets in Resources */,
-				5523A6AF269052AC007C804F /* GoogleService-Info.plist in Resources */,
+				5523A6CE2690D0F7007C804F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
